@@ -115,9 +115,6 @@ window.title("img-to-ico")
 window.resizable(False, False)
 window.configure(bg=DARK_BG)
 
-icon_img = tk.PhotoImage(file="icon.png")
-window.iconphoto(True, icon_img)
-
 # ---- main frame
 main = tk.Frame(window, padx=10, pady=10, bg=DARK_BG)
 main.grid()
